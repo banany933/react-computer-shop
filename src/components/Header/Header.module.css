@@ -1,0 +1,97 @@
+.Header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    
+    
+  }
+  .header_logo{
+    background: linear-gradient(0deg, #fc8507 0%, #ffa218 100%);
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 20%;
+    margin-right: 15px;
+  
+    
+  }
+  .header_logo h1{
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    
+  }
+  .header_search{
+    width: 50%;
+    margin-right: 35px;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+  
+  }
+  
+  .search_icon{
+    position: absolute;
+    top: 11%;
+    left: 92%;
+    padding: 10px 12px;
+    transition: all 0.2s linear;
+    
+  
+  }
+  
+  .search_icon:hover{
+    background-color: #fff;
+    padding: 10px 12px;
+    border-radius: 4px;
+  
+  
+  }
+  
+  
+  
+  .header_search input{
+    border: unset;
+    outline: none;
+    background-color: #e7e6e6;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+  
+  
+  
+    
+  }
+  
+  .header_buttons{
+    width: 30%;
+  }
+  
+  
+  .header_buttons ul{
+    display:flex;
+    list-style-type:none;
+    flex-direction: row;
+    align-items:flex-end;
+  
+  
+  }
+  
+  .header_buttons ul li{
+    padding:10px 15px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    transition: all 0.2s linear;
+  
+  }
+  
+  .header_buttons ul li:hover{
+    background-color: #e7e6e6;
+    padding: 10px 15px;
+    border-radius: 6px;
+    
+  }
