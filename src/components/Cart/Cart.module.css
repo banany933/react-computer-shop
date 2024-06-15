@@ -1,0 +1,97 @@
+.Cart{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    margin-top: 20px;
+}
+
+.item{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.item_img img{
+    width: 100px;
+    height: 100px;
+}
+
+.item_info{
+    margin-left: 10px;
+}
+
+
+.item_title h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.items_counter{
+    margin-top: 10px;
+    display: inline-flex;
+    padding: 5px 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+
+.items_counter__bt{
+    margin: 0 5px;
+}
+
+
+.item_configurations{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.item_remove__bt{
+    margin-left: 15px;
+}
+
+
+.order {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+.order_info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order_bt{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.order_bt button{
+    border: unset;
+    background: none;
+    padding: 20px 25px;
+    background: linear-gradient(0deg, #fc8507 0%, #ffa218 100%);;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
